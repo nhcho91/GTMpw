@@ -4,7 +4,7 @@ Over the past decades, the Generic Transport Model (GTM) developed by NASA and B
 
 ## Usage & License
 
-For the use of the equations of motion code, it is required to have the [GTM Design Simulation](https://github.com/nasa/GTM_DesignSim) installed. After cloning the `GTMpw` main repository, it might therefore necessary to do `git submodule init` to resolve the dependencies. Finally, please make sure that the folder `gtm/gtm_design/config` can be found by MATLAB.
+For the use of the equations of motion code, it is required to have the [GTM Design Simulation](https://github.com/nasa/GTM_DesignSim) installed. After cloning the `GTMpw` main repository, it might therefore necessary to do `git submodule init` and then `git submodule update` to resolve the dependencies. Finally, please make sure that the folder `gtm/gtm_design/config` can be found by MATLAB.
 
 - `GTMpw` is published under the GNU General Public License v3 (GPL-3) and available at GitHub under [pwpfit/GTMpw](https://gihub.com/pwpfit/gtmpw). 
 - `GTM_DesignSim` is published under NASA Open Source Agreement v1.3 as *GTM Design Simulation, LAR-17625: Flight Dynamics Simulation of a Generic Transport Model.*
